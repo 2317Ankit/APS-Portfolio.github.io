@@ -17,13 +17,14 @@
 
 ## Table of Contents
 * [🌟 Introduction](#introduction)
-* [💼 Why Portfolio?](#why-portfolio)
+* [💼 Why Portfolio?](#why-portfolio?)
 * [🎯 Objectives](#objectives)
-* [📊 Business Cases](#business-cases)
+* [ Business Cases](#business-cases)
 * [🔚 Conclusion](#conclusion)
 * [📑 References](#references)
 
 * * *
+
 
 ## 🌟 Introduction
 
@@ -51,7 +52,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-## Business Cases
+## 📊 Business Cases
 
 ### 1. Product Search
 
@@ -92,6 +93,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(1), if we don’t consider the recursive stack space. If we consider the recursive stack space then, in the worst case quicksort could make O ( N ).
 
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/QuickSort.cpp)
+
 * * *
 
 ### 3. Product Recommendation System
@@ -110,6 +113,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Time Complexity**: O(V + E) where V is vertices (users/products) and E is edges (interactions)
 
 **Space Complexity**: O(V + E)
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/DFS.cpp)
 
 * * *
 
@@ -130,6 +135,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n + k)
 
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/RadixSort.cpp)
 
 * * *
 
@@ -150,6 +156,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(1)
 
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/MaxHeap.cpp)
+
 * * *
 
 ### 6. Customer Support Chat
@@ -168,6 +176,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Time Complexity**: O(V + E)
 
 **Space Complexity**: O(V + E)
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFS.cpp)
 
 * * *
 
@@ -188,6 +198,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(V)
 
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Dijkstra.cpp)
+
 * * *
 
 ### 8. Product Categorization
@@ -206,6 +218,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Time Complexity**: O(m) for insert/search where m is the length of the key
 
 **Space Complexity**: O(n * m) where n is the number of keys
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Trie.cpp)
 
 * * *
 
@@ -226,6 +240,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n)
 
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/sha256.cpp)
+
 * * *
 
 ### 10. Review and Rating System
@@ -244,6 +260,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Time Complexity**: O(log n)
 
 **Space Complexity**: O(n)
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/avl.cpp)
 
 ---
 
@@ -264,6 +282,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n * m) where n is the number of keys
 
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/trieauto.cpp)
+
 ---
 
 ### 12. Duplicate Product Detection
@@ -282,6 +302,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Time Complexity**: O(n + m) where n is the length of the text and m is the length of the pattern
 
 **Space Complexity**: O(m)
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/kmp.cpp)
 
 ---
 
@@ -302,6 +324,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n)
 
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/segmenttrees.cpp)
+
 ---
 
 ### 14. Image Storage and Retrieval
@@ -320,6 +344,8 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Time Complexity**: O(log n)
 
 **Space Complexity**: O(n)
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Btree.cpp)
 
 ---
 
@@ -340,11 +366,13 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(m)
 
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/kmp.cpp)
+
 ---
 
 ### 16. User Activity Tracking
 
-**Algorithm**: Log Structured Merge Tree (LSM Tree)
+**Algorithm**: B+ Tree
 
 **Use Case**  
 - Tracking user behavior on Flipkart to provide insights for personalization and targeted marketing efforts.
@@ -355,9 +383,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Market Benefits**  
 - Enables better personalization and targeted marketing, leading to improved user experience and higher conversion rates.
 
-**Time Complexity**: O(log n) for writes
+**Time Complexity**: O(log n) for both reads and writes
 
-**Space Complexity**: O(n)
+**Space Complexity**: O(log n)
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Bplus.cpp)
 
 ---
 
@@ -377,3 +407,9 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Time Complexity**: O(1) on average
 
 **Space Complexity**: O(n)
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/hashset.cpp)
+
+---
+
+
