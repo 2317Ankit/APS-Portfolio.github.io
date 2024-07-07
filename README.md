@@ -25,6 +25,7 @@
 
 * * *
 
+<img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo.png" height="400px" width="1200px">
 
 ## 🌟 Introduction
 
@@ -412,4 +413,18 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-
+## 📑 References
+- https://www.geeksforgeeks.org/binary-search/
+- https://www.w3schools.com/dsa/dsa_algo_quicksort.php
+- https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+- https://www.javatpoint.com/radix-sort
+- https://www.geeksforgeeks.org/introduction-to-max-heap-data-structure/
+- https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
+- https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+- https://www.geeksforgeeks.org/trie-insert-and-search/
+- https://www.geeksforgeeks.org/introduction-to-avl-tree/
+- https://cp-algorithms.com/string/prefix-function.html
+- https://cp-algorithms.com/data_structures/segment_tree.html
+- https://www.geeksforgeeks.org/introduction-of-b-tree-2/
+- https://www.geeksforgeeks.org/introduction-of-b-tree/
+- https://www.geeksforgeeks.org/hashing-data-structure/
