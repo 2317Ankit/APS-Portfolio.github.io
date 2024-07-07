@@ -70,6 +70,9 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity:**: O(1)
 
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFS.cpp)
+
+
 * * *
 
 ### 2. Optimizing Checkout Process
@@ -87,7 +90,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Time Complexity**: O(n log n) on average
 
-**Space Complexity**: O(log n)
+**Space Complexity**: O(1), if we don’t consider the recursive stack space. If we consider the recursive stack space then, in the worst case quicksort could make O ( N ).
 
 * * *
 
@@ -106,26 +109,27 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Time Complexity**: O(V + E) where V is vertices (users/products) and E is edges (interactions)
 
-**Space Complexity**: O(V)
+**Space Complexity**: O(V + E)
 
 * * *
 
 ### 4. Flash Sale Management
 
-**Algorithm**: Bucket Sort
+**Algorithm**: Radix Sort
 
 **Use Case:** 
-- This efficiently manages high traffic during flash sales on Flipkart by sorting users into buckets based on their request times, ensuring fair and orderly processing.
+- This algorithm efficiently manages high traffic during flash sales on Flipkart by sorting users based on their request times in a non-comparative manner, ensuring fair and orderly processing.
 
 **Challenges:** 
-- Handling simultaneous high-volume requests, ensuring fair access to limited-time deals, and avoiding system overload during peak times.
+- The main challenges include handling large volumes of simultaneous requests, maintaining fairness in access to limited-time deals, and preventing system overload during peak times.
 
 **Market Benefits:** 
-- Efficient flash sale management can improve user experience by ensuring smooth and fair participation, increasing customer satisfaction and loyalty.
+- Implementing Radix Sort for flash sale management enhances user experience by facilitating smooth and equitable participation. This approach increases customer satisfaction and promotes loyalty by ensuring that all users have a fair chance to avail of offers.
 
-**Time Complexity**: O(n + k) where k is the number of buckets
+**Time Complexity**: O(d * (n + k)), where d is the number of digits in the maximum number, n is the number of elements, and k is the radix (base) of the number system being used.
 
-**Space Complexity**: O(n)
+**Space Complexity**: O(n + k)
+
 
 * * *
 
@@ -163,7 +167,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Time Complexity**: O(V + E)
 
-**Space Complexity**: O(V)
+**Space Complexity**: O(V + E)
 
 * * *
 
