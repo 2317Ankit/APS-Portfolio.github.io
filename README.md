@@ -77,28 +77,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 2. Optimizing Checkout Process
-
-**Algorithm**: Quick Sort
-  
-**Use Case** 
-- This ensures quick transitions during the checkout process on Flipkart by sorting items in the cart based on priority, such as perishability, weight, or user-defined importance.
-    
-**Challenges** 
-- Handling items with equal priority, managing the worst-case scenario for quick sort, and ensuring that the sorting process does not introduce delays during checkout.
-    
-**Market Benefits** 
-- An optimized checkout process can reduce the time customers spend finalizing their purchases, improving user experience and increasing the likelihood of repeat business.
-
-**Time Complexity**: O(n log n) on average
-
-**Space Complexity**: O(1), if we don’t consider the recursive stack space. If we consider the recursive stack space then, in the worst case quicksort could make O ( N ).
-
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/QuickSort.cpp)
-
-* * *
-
-### 3. Product Recommendation System
+### 2. Product Recommendation System
 
 **Algorithm**: Depth First Search (DFS)
 
@@ -119,49 +98,39 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 4. Flash Sale Management
+### 3. Flash Sale Management in E-commerce Platforms
 
-**Algorithm**: Radix Sort
+**Algorithm:** Red-Black Tree
 
-**Use Case:** 
-- This algorithm efficiently manages high traffic during flash sales on Flipkart by sorting users based on their request times in a non-comparative manner, ensuring fair and orderly processing.
+**Use Case:* Efficiently manage and handle large volumes of product sales within a short period during flash sales. Provides quick insertion, deletion, and lookup operations to maintain the order and availability of products during high-traffic events.
 
-**Challenges:** 
-- The main challenges include handling large volumes of simultaneous requests, maintaining fairness in access to limited-time deals, and preventing system overload during peak times.
+**Challenges:**
+- Handling a high volume of concurrent transactions and ensuring data consistency.
+- Efficiently managing stock levels and avoiding overselling or stockouts.
+- Providing real-time updates on product availability and order status.
+- Minimizing latency and ensuring quick response times during flash sales.
 
-**Market Benefits:** 
-- Implementing Radix Sort for flash sale management enhances user experience by facilitating smooth and equitable participation. This approach increases customer satisfaction and promotes loyalty by ensuring that all users have a fair chance to avail of offers.
+**Market Benefits:**
+- Improved customer satisfaction through smooth and reliable flash sale experiences.
+- Increased sales conversions by efficiently handling high traffic and transaction volumes.
+- Enhanced brand reputation by providing a seamless shopping experience during peak events.
 
-**Time Complexity**: O(d * (n + k)), where d is the number of digits in the maximum number, n is the number of elements, and k is the radix (base) of the number system being used.
+**Approach (in points):**
+1. Red-Black Tree Implementation: Use a Red-Black Tree to maintain a balanced and sorted structure for products in the flash sale.
+2. Efficient Operations: Implement quick insertion, deletion, and lookup operations to manage product stock levels and user purchases.
+3. Concurrent Access Handling: Ensure thread-safe operations to handle multiple concurrent transactions.
+4. Real-Time Updates: Provide real-time updates on product availability and order status using the tree structure.
+5. Integration with Frontend: Integrate the Red-Black Tree with the frontend to display accurate product information and availability to users.
 
-**Space Complexity**: O(n + k)
+**Time Complexity:** O(log N), where N is the number of elements in the tree.
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/RadixSort.cpp)
+**Space Complexity:** O(N), where N is the number of elements in the tree.
+  
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/RedBlackTree.cpp)
 
 * * *
 
-### 5. Order Processing
-
-**Algorithm**: Priority Queue (Heap Sort)
-
-**Use Case** 
-- This prioritizes orders for dispatch on Flipkart based on criteria such as delivery time, product type, or customer priority, optimizing the order fulfillment process.
-  
-**Challenges**
-- Dynamically adjusting priorities, managing a large volume of orders efficiently, and maintaining system performance under high load.
-  
-**Market Benefits**  
-- Efficient order processing can reduce delivery times, optimize logistics, and enhance customer satisfaction by ensuring timely and prioritized dispatch of orders.
-
-**Time Complexity**: O(n log n)
-
-**Space Complexity**: O(1)
-
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/MaxHeap.cpp)
-
-* * *
-
-### 6. Customer Support Chat
+### 4. Customer Support Chat
 
 **Algorithm**: Queue (BFS)
 
@@ -182,7 +151,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 7. Delivery Route Optimization
+### 5. Delivery Route Optimization
 
 **Algorithm**: Dijkstra's Algorithm
 
@@ -203,7 +172,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 8. Product Categorization
+### 6. Product Categorization
 
 **Algorithm**: Trie
 
@@ -224,7 +193,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 9. User Authentication
+### 7. User Authentication
 
 **Algorithm**: Hashing
 
@@ -245,7 +214,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 10. Review and Rating System
+### 8. Review and Rating System
 
 **Algorithm**: AVL Tree
 
@@ -266,7 +235,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 11. Search Autocomplete
+### 9. Search Autocomplete
 
 **Algorithm**: Trie
 
@@ -287,7 +256,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 12. Duplicate Product Detection
+### 10. Duplicate Product Detection
 
 **Algorithm**: KMP Algorithm
 
@@ -308,7 +277,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 13. Product Comparison
+### 11. Product Comparison
 
 **Algorithm**: Segment Tree
 
@@ -329,7 +298,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 14. Image Storage and Retrieval
+### 12. Image Storage and Retrieval
 
 **Algorithm**: B-Tree
 
@@ -350,7 +319,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 15. Product Recommendation by Similarity
+### 13. Product Recommendation by Similarity
 
 **Algorithm**: KMP Algorithm
 
@@ -371,7 +340,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 16. User Activity Tracking
+### 14. User Activity Tracking
 
 **Algorithm**: B+ Tree
 
@@ -392,7 +361,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 17. Coupon Code Validation
+### 15. Coupon Code Validation
 
 **Algorithm**: Hash Set
 
@@ -413,6 +382,145 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
+### 16. Filter-Based Search in Flipkart
+
+**Algorithm:** Inverted Index with Bitmaps
+
+**Use Case:** Flipkart users often use filters to narrow down search results. For example, a user searching for mobile phones may apply filters based on brand, price range, features, etc. Efficient filtering is essential for enhancing user experience and ensuring relevant results are displayed quickly.
+
+**Challenges**
+- Large Dataset: Managing and searching through a large inventory with multiple categories.
+- Multiple Filters: Handling multiple filters simultaneously, which may have dependencies or correlations.
+- Real-Time Performance: Ensuring the search and filtering process is fast and responsive to maintain user satisfaction.
+- Scalability: The system must scale to accommodate increasing numbers of users and products.
+
+**Market Benefits**
+- Enhanced User Experience: Quick and relevant search results improve user satisfaction and increase the likelihood of purchases.
+- Increased Sales: Efficient filtering helps users find desired products faster, potentially boosting sales.
+- Customer Retention: A smooth and efficient search experience can lead to higher customer retention rates.
+- Competitive Edge: Superior search functionality can differentiate Flipkart from competitors.
+
+**Approach**
+- Create an inverted index where each filter attribute (e.g., brand, price range) points to a bitmap.
+- Each bitmap represents whether a product satisfies a particular filter criterion (1 for yes, 0 for no).
+- For each product, generate a bit representation for each filter category.
+- Store these representations in an inverted index.
+- Retrieve the bitmaps for each filter applied by the user.
+- Perform bitwise AND operations on the retrieved bitmaps.
+- Decode the resultant bitmap to get the list of product IDs that match the filters.
+
+**Time Complexity**
+- Preprocessing: O(N * M) where N is the number of products and M is the number of filter categories.
+- Filtering: O(F) where F is the number of filters applied. This is because bitwise operations on bitmaps are linear in the number of products, but very fast due to hardware-level operations.
+
+**Space Complexity**
+- Inverted Index: O(N * M) where N is the number of products and M is the number of filter categories.
+- Bitmaps: Each filter criterion requires a bitmap of size N (number of products), leading to a space complexity of O(N * M).
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/InvertedIndex.cpp)
+
+---
+
+
+### 17. Order Tracking
+
+**Algorithm:** Breadth-First Search (BFS)
+
+**Use Case:** Tracking the status of orders from placement to delivery. Provides real-time status updates to customers and internal stakeholders, enhancing transparency and operational efficiency.
+
+**Challenges:**
+- Ensuring synchronization and consistency of order statuses across various systems and databases.
+- Handling large volumes of concurrent order tracking requests efficiently.
+- Addressing potential delays or inconsistencies in status updates from external logistics partners.
+
+**Market Benefits:**
+- Improved customer experience through accurate and timely order status updates.
+- Enhanced operational efficiency by enabling proactive management of order fulfillment processes.
+- Better decision-making capabilities through real-time analytics on order processing and delivery metrics.
+
+**Approach (in points):**
+1. **Hash Map Implementation:** Use a hash map to store each order ID with its current status.
+2. **BFS for Status Tracking:** Implement BFS to traverse through order statuses (e.g., ordered, shipped, delivered) and update the hash map accordingly.
+3. **Real-Time Updates:** Integrate mechanisms to update order statuses in real-time based on events or notifications.
+4. **Error Handling:** Implement error handling and retry mechanisms to ensure robustness in status tracking.
+5. **Integration with Logistics:** Interface BFS with external logistics systems to capture and update order statuses seamlessly.
+
+**Time Complexity:** O(V + E), where V is the number of vertices (statuses) and E is the number of edges (transitions between statuses).
+
+**Space Complexity:** Hash Map, O(N), where N is the number of orders being tracked, assuming each order ID and status are stored in the hash map.
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFShashmap.cpp)
+
+---
+
+### 18. Search based on Price Range
+
+**Algorithm:** Fenwick Tree (Binary Indexed Tree)
+
+**Use Case:** Efficiently retrieve products within a specified price range to fulfill customer search queries. Enhances user experience by providing quick access to relevant products based on price filters.
+
+**Challenges:**
+- Managing dynamic updates to product prices and ensuring consistency in the Fenwick Tree.
+- Handling large volumes of price data efficiently to maintain query responsiveness.
+- Integrating with existing search and recommendation systems for seamless user experience.
+
+**Market Benefits:**
+- Improved user engagement through faster product search results based on price preferences.
+- Enhanced conversion rates by matching customer price expectations more accurately.
+- Scalability in handling increasing product catalogs and user traffic during peak periods.
+
+**Approach:**
+1. Fenwick Tree Setup: Initialize a Fenwick Tree to store cumulative sums of product counts indexed by price ranges.
+2. Update Operations: Implement methods to update product prices and adjust the Fenwick Tree accordingly.
+3. Query Processing: Support operations to efficiently query and retrieve products within a specified price range using the Fenwick Tree.
+4. Integration: Integrate with Flipkart's search and recommendation engines to leverage price range queries in user interactions.
+5. Optimization: Implement caching and indexing strategies to optimize query performance and reduce response times.
+
+**Time Complexity:** O(N log N), where N is the number of price segments.
+
+**Space Complexity:** O(N), where N is the number of price segments.
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/FenwickTree.cpp)
+
+---
+
+### 19. Sorting Products based on Filters
+
+**Algorithm:** Quick Sort
+
+**Use Case:** Efficiently sort and filter products based on various attributes such as price, ratings, popularity, etc., to enhance user search and browsing experience. Provides quick and accurate sorting of product lists, allowing users to easily find and compare products based on their preferences.
+
+**Challenges:**
+- Handling large datasets efficiently to maintain quick response times during peak user activity.
+- Managing dynamic data updates (e.g., price changes, new ratings) and ensuring the sorting remains consistent and up-to-date.
+- Integrating with various filtering criteria (e.g., price range, brand, category) while maintaining sorting efficiency.
+
+**Market Benefits:**
+- Improved user satisfaction through faster and more relevant search results.
+- Enhanced product visibility, leading to higher sales conversions.
+- Scalability to handle growing product catalogs and increasing user traffic.
+
+**Approach:**
+1. Quick Sort Implementation: Use Quick Sort to sort the list of products based on a chosen attribute (e.g., price, ratings).
+2. Dynamic Updates: Implement mechanisms to handle updates in product attributes and maintain sorted order.
+3. Multi-Attribute Sorting: Support sorting by multiple attributes, allowing users to apply secondary sorting criteria.
+4. Integration with Filters: Combine sorting with filtering criteria to allow users to narrow down their search results effectively.
+5. Performance Optimization: Optimize the sorting process using in-place sorting and partitioning techniques to reduce time and space complexity.
+
+**Time Complexity:** Average Case, O(N log N), where N is the number of elements to be sorted.
+
+**Space Complexity:** O(log N) for the stack space used in recursion.
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/QuickSort.cpp)
+
+---
+
+## 🔚 Conclusion
+
+In conclusion, this portfolio showcases the application of various data structures and algorithms to solve real-world business use cases for Flipkart's e-commerce platform. Each Data Structure and Algorithm approach is meticulously selected to address specific challenges and drive market benefits. The insights and techniques gained from the Algorithmic Problem Solving (APS) course were instrumental in identifying and implementing these solutions, demonstrating the profound impact of structured algorithmic knowledge on practical, large-scale business problems. This portfolio not only highlights the synergy between theoretical learning and practical application but also underscores the importance of algorithms in transforming e-commerce experiences.
+
+---
+
 ## 📑 References
 - https://www.geeksforgeeks.org/binary-search/
 - https://www.w3schools.com/dsa/dsa_algo_quicksort.php
@@ -428,3 +536,6 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 - https://www.geeksforgeeks.org/introduction-of-b-tree-2/
 - https://www.geeksforgeeks.org/introduction-of-b-tree/
 - https://www.geeksforgeeks.org/hashing-data-structure/
+- https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
+- https://www.geeksforgeeks.org/introduction-to-red-black-tree/
+- https://www.geeksforgeeks.org/inverted-index/
