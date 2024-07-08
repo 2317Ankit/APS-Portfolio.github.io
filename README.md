@@ -41,15 +41,15 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ## 🎯 Objectives
 
-1. Enhance operational efficiency through streamlined processes like search functionalities and logistics.
-   
-2. Optimize user experience with personalized recommendations, efficient checkout processes, and responsive customer support systems.
-   
-3. Drive innovation by leveraging advanced algorithms to introduce new features and services.
-   
-4. Improve decision-making using DSA for data analytics and insights.
-   
-5. Ensure scalability and reliability of systems to support Flipkart's growth and handle peak traffic efficiently.
+1. Applying theoretical concepts from Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses to practical, real-world problems within the Flipkart platform.
+
+2. Optimizing search algorithms to improve the efficiency and speed of product searches.
+
+3. Implementing data structures to improve the reliability and performance of Flipkart’s customer support systems.
+
+4. Utilizing algorithmic techniques to deliver personalized product recommendations based on user behavior analysis.
+
+5. Bridge the gap between theoretical knowledge and practical application by addressing real-world challenges faced by Flipkart.
 
 * * *
 
