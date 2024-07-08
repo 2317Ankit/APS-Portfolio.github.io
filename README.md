@@ -84,7 +84,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Algorithm**: Depth First Search (DFS)
 
-**Use Case** Flipkart users by analyzing their behavior and interactions. By traversing a graph of user-product interactions, it identifies patterns and preferences, allowing for highly personalized recommendations that align with individual user interests and shopping habits.
+**Use Case:** Flipkart users by analyzing their behavior and interactions. By traversing a graph of user-product interactions, it identifies patterns and preferences, allowing for highly personalized recommendations that align with individual user interests and shopping habits.
 
 **Challenges** 
 - Building and maintaining an extensive user-product interaction graph, ensuring real-time recommendations, and handling the complexity of large graphs efficiently.
@@ -141,7 +141,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Algorithm:** Red-Black Tree
 
-**Use Case:* Efficiently manage and handle large volumes of product sales within a short period during flash sales. Provides quick insertion, deletion, and lookup operations to maintain the order and availability of products during high-traffic events.
+**Use Case:** Efficiently manage and handle large volumes of product sales within a short period during flash sales. Provides quick insertion, deletion, and lookup operations to maintain the order and availability of products during high-traffic events.
 
 **Challenges:**
 - Handling a high volume of concurrent transactions and ensuring data consistency.
@@ -197,7 +197,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Algorithm**: Using Dijkstra's Algorithm
 
-**Use case** Optimizing delivery routes for couriers on Flipkart, minimizing travel time and costs to ensure efficient logistics operations.
+**Use case:** Optimizing delivery routes for couriers on Flipkart, minimizing travel time and costs to ensure efficient logistics operations.
 
 **Challenges**  
 - Managing dynamic traffic conditions, making real-time route adjustments, and handling large geographic areas with numerous delivery points.
@@ -223,7 +223,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Algorithm**: Using Trie
 
-**Use Case** This approach classifies products into various categories on Flipkart, improving search and navigation for users by organizing products hierarchically.
+**Use Case:** This approach classifies products into various categories on Flipkart, improving search and navigation for users by organizing products hierarchically.
 
 **Challenges**  
 - Managing a large number of categories, ensuring efficient search capabilities within categories, and handling dynamic updates to the product catalog.
@@ -249,7 +249,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Algorithm**: Using Hashing
 
-**Use Case** This approach securely manages user logins on Flipkart by storing and verifying passwords using hashing techniques, ensuring data security and integrity.
+**Use Case:** This approach securely manages user logins on Flipkart by storing and verifying passwords using hashing techniques, ensuring data security and integrity.
 
 **Challenges**  
 - Mitigating brute force attacks by implementing strong hashing algorithms and enforcing password complexity rules.
@@ -277,7 +277,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Algorithm**: Using AVL Tree
 
-**Use Case** This approach efficiently handles product reviews and ratings on Flipkart by maintaining balanced updates and queries within an AVL tree structure.
+**Use Case:** This approach efficiently handles product reviews and ratings on Flipkart by maintaining balanced updates and queries within an AVL tree structure.
 
 **Challenges**  
 - Ensuring the AVL tree remains balanced despite frequent updates to review data.
@@ -306,7 +306,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Algorithm**: Using Trie
 
-**Use Case** This approach provides search suggestions in real-time on Flipkart as users type in the search bar, improving search efficiency and user experience.
+**Use Case:** This approach provides search suggestions in real-time on Flipkart as users type in the search bar, improving search efficiency and user experience.
 
 **Challenges**  
 - Managing a large dictionary of terms to support autocomplete functionality.
