@@ -29,7 +29,7 @@
 
 ## 🌟 Introduction
 
-Flipkart, established in 2007, has emerged as a pivotal player in India's dynamic e-commerce landscape, initially focusing on books and rapidly expanding to encompass a wide range of categories such as electronics, fashion, and home essentials. This e-commerce giant continues to innovate, leveraging advanced technologies and strategic use of algorithms to enhance operational efficiency and customer satisfaction. In my Flipkart Portfolio, inspired by insights from the Algorithmic Problem Solving (APS) course at KLE Technological University, I delve into how these algorithms are instrumental in solving intricate challenges within online retail, showcasing their practical applications in optimizing processes and elevating user experiences.
+Flipkart[1](), established in 2007, has emerged as a pivotal player in India's dynamic e-commerce landscape, initially focusing on books and rapidly expanding to encompass a wide range of categories such as electronics, fashion, and home essentials. This e-commerce giant continues to innovate, leveraging advanced technologies and strategic use of algorithms to enhance operational efficiency and customer satisfaction. In my Flipkart Portfolio, inspired by insights from the Algorithmic Problem Solving (APS) course at KLE Technological University, I delve into how these algorithms are instrumental in solving intricate challenges within online retail, showcasing their practical applications in optimizing processes and elevating user experiences.
 
 * * *
 
@@ -59,7 +59,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Algorithm**: Binary Search
 
-**Use Case:** This allows users on Flipkart to quickly find products by searching within a sorted list, providing them with relevant results based on their search queries.
+**Use Case:** This approach will allows users on Flipkart to quickly find products by searching within a sorted list, providing them with relevant results based on their search queries.
 
 **Challenges** 
 - Ensuring the product list is always sorted, handling cases where the product may not exist, and efficiently managing large datasets to maintain quick search responses.
@@ -75,7 +75,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(1)
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFS.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFS.cpp) [[2]](https://www.geeksforgeeks.org/binary-search/)
 
 
 * * *
@@ -102,11 +102,42 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(V + E)
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/DFS.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/DFS.cpp) [[3]](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
 
-* * *
+---
 
-### ⚡ 3. Flash Sale Management in E-commerce Platforms
+### 3. 🔍 Search based on Price Range
+
+**Algorithm:** Fenwick Tree (Binary Indexed Tree)
+
+**Use Case:** Efficiently retrieve products within a specified price range to fulfill customer search queries. Enhances user experience by providing quick access to relevant products based on price filters.
+
+**Challenges:**
+- Managing dynamic updates to product prices and ensuring consistency in the Fenwick Tree.
+- Handling large volumes of price data efficiently to maintain query responsiveness.
+- Integrating with existing search and recommendation systems for seamless user experience.
+
+**Market Benefits:**
+- Improved user engagement through faster product search results based on price preferences.
+- Enhanced conversion rates by matching customer price expectations more accurately.
+- Scalability in handling increasing product catalogs and user traffic during peak periods.
+
+**Approach:**
+1. Fenwick Tree Setup: Initialize a Fenwick Tree to store cumulative sums of product counts indexed by price ranges.
+2. Update Operations: Implement methods to update product prices and adjust the Fenwick Tree accordingly.
+3. Query Processing: Support operations to efficiently query and retrieve products within a specified price range using the Fenwick Tree.
+4. Integration: Integrate with Flipkart's search and recommendation engines to leverage price range queries in user interactions.
+5. Optimization: Implement caching and indexing strategies to optimize query performance and reduce response times.
+
+**Time Complexity:** O(N log N), where N is the number of price segments.
+
+**Space Complexity:** O(N), where N is the number of price segments.
+
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/FenwickTree.cpp) [[4]](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+
+---
+
+### ⚡ 4. Flash Sale Management in E-commerce Platforms
 
 **Algorithm:** Red-Black Tree
 
@@ -132,15 +163,15 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity:** O(N), where N is the number of elements in the tree.
   
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/RedBlackTree.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/RedBlackTree.cpp) [[5]](https://www.geeksforgeeks.org/introduction-to-red-black-tree/)
 
 * * *
 
-### 💬 Managing Customer Support Chat
+### 💬 5. Managing Customer Support Chat
 
 **Algorithm**: Using a Queue (BFS)
 
-**Use case:** This system manages customer queries on Flipkart by using a queue to ensure first-come, first-served responses, improving the overall support experience.
+**Use case:** This approach manages customer queries on Flipkart by using a queue to ensure first-come, first-served responses, improving the overall support experience.
 
 **Challenges**  
 - Handling peak times with high query volumes, maintaining response quality, and ensuring fair management of customer queries.
@@ -158,11 +189,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(V + E)
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFS.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFS.cpp) [[6]](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/)
 
 * * *
 
-### 🚚 5. Optimizing Delivery Route
+### 🚚 6. Optimizing Delivery Route
 
 **Algorithm**: Using Dijkstra's Algorithm
 
@@ -184,15 +215,15 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(V) where V is the number of vertices
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Dijkstra.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Dijkstra.cpp) [[7]](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
 
 * * *
 
-### 📂 6. Product Categorization
+### 📂 7. Product Categorization
 
 **Algorithm**: Using Trie
 
-**Use Case** This system classifies products into various categories on Flipkart, improving search and navigation for users by organizing products hierarchically.
+**Use Case** This approach classifies products into various categories on Flipkart, improving search and navigation for users by organizing products hierarchically.
 
 **Challenges**  
 - Managing a large number of categories, ensuring efficient search capabilities within categories, and handling dynamic updates to the product catalog.
@@ -210,15 +241,15 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n * m) where n is the number of keys
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Trie.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Trie.cpp) [[8]](https://www.geeksforgeeks.org/trie-insert-and-search/)
 
 * * *
 
-### 🔒 7. User Authentication
+### 🔒 8. User Authentication
 
 **Algorithm**: Using Hashing
 
-**Use Case** This system securely manages user logins on Flipkart by storing and verifying passwords using hashing techniques, ensuring data security and integrity.
+**Use Case** This approach securely manages user logins on Flipkart by storing and verifying passwords using hashing techniques, ensuring data security and integrity.
 
 **Challenges**  
 - Mitigating brute force attacks by implementing strong hashing algorithms and enforcing password complexity rules.
@@ -238,11 +269,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n), where n is the number of user credentials stored
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/sha256.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/sha256.cpp) [[9]](https://www.geeksforgeeks.org/sha-256-and-sha-3/)
 
 * * *
 
-### 🌟 8. Review and Rating System
+### 🌟 9. Review and Rating System
 
 **Algorithm**: Using AVL Tree
 
@@ -267,11 +298,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n) where n is the number of reviews stored
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/avl.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/avl.cpp) [[10]](https://www.geeksforgeeks.org/introduction-to-avl-tree/)
 
 ---
 
-### 🔍 9. Search Autocomplete
+### 🔍 10. Search Autocomplete
 
 **Algorithm**: Using Trie
 
@@ -295,11 +326,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n * m) where n is the number of keys
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/trieauto.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/trieauto.cpp) [[17]](https://www.geeksforgeeks.org/auto-complete-feature-using-trie/)
 
 ---
 
-### 🔍 10. Duplicate Product Detection
+### 🔍 11. Duplicate Product Detection
 
 **Algorithm**: Using KMP Algorithm
 
@@ -323,11 +354,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(m)
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/kmp.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/kmp.cpp) [[11]](https://cp-algorithms.com/string/prefix-function.html)
 
 ---
 
-### 📊 11. Product Comparison
+### 📊 12. Product Comparison
 
 **Algorithm**: Using Segment Tree
 
@@ -351,11 +382,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n)
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/segmenttrees.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/segmenttrees.cpp) [[13]](https://cp-algorithms.com/data_structures/segment_tree.html)
 
 ---
 
-### 🖼️ 12. Image Storage and Retrieval
+### 🖼️ 13. Image Storage and Retrieval
 
 **Algorithm**: Using B-Tree
 
@@ -378,15 +409,15 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n)
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Btree.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Btree.cpp) [[13]](https://www.geeksforgeeks.org/introduction-of-b-tree/)
 
 ---
 
-### 🎯 13. Product Recommendation by Similarity
+### 🎯 14. Product Recommendation by Similarity
 
 **Algorithm**: Using KMP Algorithm
 
-**Use Case:** This system recommends similar products to users on Flipkart by matching patterns in product descriptions.
+**Use Case:** This approach recommends similar products to users on Flipkart by matching patterns in product descriptions.
 
 **Challenges**  
 - Managing large datasets of product descriptions for efficient similarity matching.
@@ -407,11 +438,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(m)
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/kmp.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/kmp.cpp) [[11]](https://cp-algorithms.com/string/prefix-function.html)
 
 ---
 
-### 📈 14. User Activity Tracking
+### 📈 15. User Activity Tracking
 
 **Algorithm**: Using B+ Tree
 
@@ -436,19 +467,13 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(log n)
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Bplus.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Bplus.cpp) [[14]](https://www.geeksforgeeks.org/introduction-of-b-tree-2/)
 
 ---
 
-### 15. Coupon Code Validation
+### 💸 16. Coupon Code Validation
 
-**Algorithm**: Hash Set
-
-
-
-### 💸 15. Coupon Code Validation
-
-**Algorithm**: Using Hash Set
+**Algorithm**: Using Hash Map
 
 **Use Case:** Validating discount codes and vouchers quickly on Flipkart, ensuring a seamless checkout process for users.
 
@@ -471,11 +496,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity**: O(n) where n is the number of coupon codes stored
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/hashset.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/hashset.cpp) [[18]](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/)
 
 ---
 
-### 🔍 16. Filter-Based Search in Flipkart
+### 🔍 17. Filter-Based Search in Flipkart
 
 **Algorithm:** Inverted Index with Bitmaps
 
@@ -510,12 +535,12 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 - Inverted Index: O(N * M) where N is the number of products and M is the number of filter categories.
 - Bitmaps: Each filter criterion requires a bitmap of size N (number of products), leading to a space complexity of O(N * M).
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/InvertedIndex.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/InvertedIndex.cpp) [[14]](https://www.geeksforgeeks.org/inverted-index/)
 
 ---
 
 
-### 📦 17. Order Tracking
+### 📦 18. Order Tracking
 
 **Algorithm:** Breadth-First Search (BFS)
 
@@ -542,38 +567,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity:** Hash Map, O(N), where N is the number of orders being tracked, assuming each order ID and status are stored in the hash map.
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFShashmap.cpp)
-
----
-
-### 18. 🔍 Search based on Price Range
-
-**Algorithm:** Fenwick Tree (Binary Indexed Tree)
-
-**Use Case:** Efficiently retrieve products within a specified price range to fulfill customer search queries. Enhances user experience by providing quick access to relevant products based on price filters.
-
-**Challenges:**
-- Managing dynamic updates to product prices and ensuring consistency in the Fenwick Tree.
-- Handling large volumes of price data efficiently to maintain query responsiveness.
-- Integrating with existing search and recommendation systems for seamless user experience.
-
-**Market Benefits:**
-- Improved user engagement through faster product search results based on price preferences.
-- Enhanced conversion rates by matching customer price expectations more accurately.
-- Scalability in handling increasing product catalogs and user traffic during peak periods.
-
-**Approach:**
-1. Fenwick Tree Setup: Initialize a Fenwick Tree to store cumulative sums of product counts indexed by price ranges.
-2. Update Operations: Implement methods to update product prices and adjust the Fenwick Tree accordingly.
-3. Query Processing: Support operations to efficiently query and retrieve products within a specified price range using the Fenwick Tree.
-4. Integration: Integrate with Flipkart's search and recommendation engines to leverage price range queries in user interactions.
-5. Optimization: Implement caching and indexing strategies to optimize query performance and reduce response times.
-
-**Time Complexity:** O(N log N), where N is the number of price segments.
-
-**Space Complexity:** O(N), where N is the number of price segments.
-
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/FenwickTree.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFShashmap.cpp) [[6]](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/)
 
 ---
 
@@ -604,7 +598,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Space Complexity:** O(log N) for the stack space used in recursion.
 
-[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/QuickSort.cpp)
+[Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/QuickSort.cpp) [[16]](https://www.w3schools.com/dsa/dsa_algo_quicksort.php)
 
 ---
 
@@ -615,20 +609,21 @@ In conclusion, this portfolio showcases the application of various data structur
 ---
 
 ## 📑 References
-- https://www.geeksforgeeks.org/binary-search/
-- https://www.w3schools.com/dsa/dsa_algo_quicksort.php
-- https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
-- https://www.javatpoint.com/radix-sort
-- https://www.geeksforgeeks.org/introduction-to-max-heap-data-structure/
-- https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
-- https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
-- https://www.geeksforgeeks.org/trie-insert-and-search/
-- https://www.geeksforgeeks.org/introduction-to-avl-tree/
-- https://cp-algorithms.com/string/prefix-function.html
-- https://cp-algorithms.com/data_structures/segment_tree.html
-- https://www.geeksforgeeks.org/introduction-of-b-tree-2/
-- https://www.geeksforgeeks.org/introduction-of-b-tree/
-- https://www.geeksforgeeks.org/hashing-data-structure/
-- https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
-- https://www.geeksforgeeks.org/introduction-to-red-black-tree/
-- https://www.geeksforgeeks.org/inverted-index/
+- [1] Flipkart: [https://www.flipkart.com/](https://www.flipkart.com/)
+- [2] Binary Search: [https://www.geeksforgeeks.org/binary-search/](https://www.geeksforgeeks.org/binary-search/)
+- [3] DFS Algorithm: [https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+- [4] Fenwick Trees:  [https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+- [5] Red Black Trees: [https://www.geeksforgeeks.org/introduction-to-red-black-tree/](https://www.geeksforgeeks.org/introduction-to-red-black-tree/)
+- [6] BFS Algorithm: [https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/)
+- [7] Dijkstra Algorithm: [https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
+- [8] Trie data structure: [https://www.geeksforgeeks.org/trie-insert-and-search/](https://www.geeksforgeeks.org/trie-insert-and-search/)
+- [9] Sha256: [https://www.geeksforgeeks.org/sha-256-and-sha-3/](https://www.geeksforgeeks.org/sha-256-and-sha-3/)
+- [10] AVL Tree: [https://www.geeksforgeeks.org/introduction-to-avl-tree/](https://www.geeksforgeeks.org/introduction-to-avl-tree/)
+- [11] KMP Algorithm: [https://cp-algorithms.com/string/prefix-function.html](https://cp-algorithms.com/string/prefix-function.html)
+- [12] Segment Trees: [https://cp-algorithms.com/data_structures/segment_tree.html](https://cp-algorithms.com/data_structures/segment_tree.html)
+- [13] B Tree: [https://www.geeksforgeeks.org/introduction-of-b-tree/](https://www.geeksforgeeks.org/introduction-of-b-tree/)
+- [14] B+tree: [https://www.geeksforgeeks.org/introduction-of-b-tree-2/](https://www.geeksforgeeks.org/introduction-of-b-tree-2/)
+- [15] Inverted Index: [https://www.geeksforgeeks.org/inverted-index/](https://www.geeksforgeeks.org/inverted-index/)
+- [16] Quick Sort: [https://www.w3schools.com/dsa/dsa_algo_quicksort.php](https://www.w3schools.com/dsa/dsa_algo_quicksort.php)
+- [17] Trie Auto Complete: [https://www.geeksforgeeks.org/auto-complete-feature-using-trie/](https://www.geeksforgeeks.org/auto-complete-feature-using-trie/)
+- [18] Hash map: [https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/)
