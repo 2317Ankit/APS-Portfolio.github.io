@@ -55,12 +55,11 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ## 📊 Business Cases
 
-### 1. Product Search
+### 🔍 1. Product Search
 
 **Algorithm**: Binary Search
 
-**Use Case** 
-- This allows users on Flipkart to quickly find products by searching within a sorted list, providing them with relevant results based on their search queries.
+**Use Case:** This allows users on Flipkart to quickly find products by searching within a sorted list, providing them with relevant results based on their search queries.
 
 **Challenges** 
 - Ensuring the product list is always sorted, handling cases where the product may not exist, and efficiently managing large datasets to maintain quick search responses.
@@ -68,21 +67,24 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Market Benefits** 
 - Implementing an efficient product search system on Flipkart enhances the user experience by providing fast and accurate search results, which can lead to increased customer satisfaction and higher conversion rates.
 
+**Approach:**
+- Sorting Products: Ensure the list of products is sorted based on the desired attribute (e.g., name, price).
+- Binary Search Implementation: Applying the binary search algorithm to quickly locate products matching the search query.
+
 **Time Complexity**: O(log n)
 
-**Space Complexity:**: O(1)
+**Space Complexity**: O(1)
 
 [Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/BFS.cpp)
 
 
 * * *
 
-### 2. Product Recommendation System
+### 🤖 2. Product Recommendation System
 
 **Algorithm**: Depth First Search (DFS)
 
-**Use Case** 
-- This suggests products to Flipkart users based on their behavior by traversing a graph of user-product interactions, identifying patterns and preferences.
+**Use Case** Flipkart users by analyzing their behavior and interactions. By traversing a graph of user-product interactions, it identifies patterns and preferences, allowing for highly personalized recommendations that align with individual user interests and shopping habits.
 
 **Challenges** 
 - Building and maintaining an extensive user-product interaction graph, ensuring real-time recommendations, and handling the complexity of large graphs efficiently.
@@ -90,7 +92,13 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Market Benefits** 
 - Personalized product recommendations can significantly enhance user engagement and drive higher sales by presenting customers with items that match their interests.
 
-**Time Complexity**: O(V + E) where V is vertices (users/products) and E is edges (interactions)
+**Approach:**
+- Construct a graph where nodes represent users and products, and edges represent interactions between them.
+- Use DFS to traverse the graph, exploring user interactions to identify patterns and preferences.
+- Continuously update the graph to reflect new interactions and behaviors for real-time recommendation accuracy.
+- Optimize the traversal process to manage large graphs efficiently, ensuring quick recommendation generation.
+
+**Time Complexity**: O(V + E) where V is vertices and E is edges
 
 **Space Complexity**: O(V + E)
 
@@ -98,7 +106,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 3. Flash Sale Management in E-commerce Platforms
+### ⚡ 3. Flash Sale Management in E-commerce Platforms
 
 **Algorithm:** Red-Black Tree
 
@@ -107,15 +115,13 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 **Challenges:**
 - Handling a high volume of concurrent transactions and ensuring data consistency.
 - Efficiently managing stock levels and avoiding overselling or stockouts.
-- Providing real-time updates on product availability and order status.
 - Minimizing latency and ensuring quick response times during flash sales.
 
 **Market Benefits:**
 - Improved customer satisfaction through smooth and reliable flash sale experiences.
 - Increased sales conversions by efficiently handling high traffic and transaction volumes.
-- Enhanced brand reputation by providing a seamless shopping experience during peak events.
 
-**Approach (in points):**
+**Approach**
 1. Red-Black Tree Implementation: Use a Red-Black Tree to maintain a balanced and sorted structure for products in the flash sale.
 2. Efficient Operations: Implement quick insertion, deletion, and lookup operations to manage product stock levels and user purchases.
 3. Concurrent Access Handling: Ensure thread-safe operations to handle multiple concurrent transactions.
@@ -130,18 +136,23 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 4. Customer Support Chat
+### 💬 Managing Customer Support Chat
 
-**Algorithm**: Queue (BFS)
+**Algorithm**: Using a Queue (BFS)
 
-**Use Case**
-- This manages customer queries on Flipkart by using a queue to ensure first-come, first-served responses, improving the overall support experience.
+**Use case:** This system manages customer queries on Flipkart by using a queue to ensure first-come, first-served responses, improving the overall support experience.
 
 **Challenges**  
 - Handling peak times with high query volumes, maintaining response quality, and ensuring fair management of customer queries.
   
 **Market Benefits**  
-- An efficient customer support system enhances user experience, reduces wait times, and improves customer satisfaction, leading to higher retention rates.
+- Enhancing user experience, reducing wait times, and improving customer satisfaction, leading to higher retention rates.
+
+**Approaching the Solution**
+- Implementing a queue to manage incoming customer queries, ensuring they are addressed in the order received.
+- Using BFS to traverse and process queries efficiently, providing timely responses.
+- Incorporating mechanisms to prioritize urgent queries when necessary without compromising fairness.
+- Continuously monitoring and optimizing the system to handle high volumes during peak times, maintaining response quality and speed.
 
 **Time Complexity**: O(V + E)
 
@@ -151,39 +162,49 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 5. Delivery Route Optimization
+### 🚚 5. Optimizing Delivery Route
 
-**Algorithm**: Dijkstra's Algorithm
+**Algorithm**: Using Dijkstra's Algorithm
 
-**Use Case**  
-- This optimizes delivery routes for couriers on Flipkart to minimize travel time and costs, ensuring efficient logistics operations.
+**Use case** Optimizing delivery routes for couriers on Flipkart, minimizing travel time and costs to ensure efficient logistics operations.
 
 **Challenges**  
-- Dealing with dynamic traffic conditions, real-time route adjustments, and managing large geographic areas with numerous delivery points.
-
+- Managing dynamic traffic conditions, making real-time route adjustments, and handling large geographic areas with numerous delivery points.
+  
 **Market Benefits**  
-- Optimized delivery routes reduce operational costs, shorten delivery times, and improve customer satisfaction through timely deliveries.
+- Optimized delivery routes reduce operational costs, shorten delivery times, and enhance customer satisfaction by ensuring timely deliveries.
 
-**Time Complexity**: O(V^2) or O(E + V log V) with a priority queue
+**Approaching the Solution**
+- Implementing Dijkstra's algorithm to find the shortest paths between delivery points based on travel time or distance.
+- Integrating real-time traffic data to dynamically adjust routes and optimize delivery schedules.
+- Utilizing geographic data to efficiently manage and navigate large delivery areas.
+- Continuously optimizing algorithms and logistics strategies to adapt to changing conditions and improve overall efficiency.
 
-**Space Complexity**: O(V)
+**Time Complexity**: O(E * logV), Where E is the number of edges and V is the number of vertices.
+
+**Space Complexity**: O(V) where V is the number of vertices
 
 [Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/Dijkstra.cpp)
 
 * * *
 
-### 6. Product Categorization
+### 📂 6. Product Categorization
 
-**Algorithm**: Trie
+**Algorithm**: Using Trie
 
-**Use Case**  
-- This classifies products into various categories on Flipkart, improving search and navigation for users by organizing products hierarchically.
+**Use Case** This system classifies products into various categories on Flipkart, improving search and navigation for users by organizing products hierarchically.
 
 **Challenges**  
-- Handling a large number of categories, managing dynamic updates to the product catalog, and ensuring efficient search within categories.
-
+- Managing a large number of categories, ensuring efficient search capabilities within categories, and handling dynamic updates to the product catalog.
+  
 **Market Benefits**  
-- Efficient product categorization enhances the user experience by making it easier to find products, increasing user engagement and sales.
+- Efficient product categorization enhances the user experience by simplifying product discovery, increasing user engagement, and ultimately boosting sales.
+
+**Approaching**
+- Implementing a Trie data structure to efficiently store and retrieve products based on their category.
+- Supporting dynamic updates by incorporating mechanisms to add, update, or remove categories and products seamlessly.
+- Enhancing search capabilities within categories by leveraging the Trie's prefix matching features.
+- Continuously optimizing the Trie structure and algorithms to ensure fast and efficient categorization and search operations.
 
 **Time Complexity**: O(m) for insert/search where m is the length of the key
 
@@ -193,60 +214,82 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 * * *
 
-### 7. User Authentication
+### 🔒 7. User Authentication
 
-**Algorithm**: Hashing
+**Algorithm**: Using Hashing
 
-**Use Case**  
-- This securely handles user logins on Flipkart by storing and verifying passwords using hashing, ensuring data security and integrity.
+**Use Case** This system securely manages user logins on Flipkart by storing and verifying passwords using hashing techniques, ensuring data security and integrity.
 
 **Challenges**  
-- Protecting against brute force attacks, managing hash collisions, and ensuring the secure storage of user credentials.
+- Mitigating brute force attacks by implementing strong hashing algorithms and enforcing password complexity rules.
+- Handling hash collisions to maintain the integrity of user credentials stored in the database.
+- Ensuring secure storage and transmission of hashed passwords to protect user privacy.
 
 **Market Benefits**  
-- Secure user authentication protects against unauthorized access, enhances user trust, and improves the overall security of the e-commerce platform.
+- Secure user authentication enhances user trust, protects against unauthorized access, and strengthens the overall security posture of the e-commerce platform.
+
+**Approaching**
+- Implementing a robust hashing algorithm(SHA-256) to hash passwords securely before storing them in the database.
+- Utilizing salted hashing techniques to add an extra layer of security against rainbow table attacks.
+- Regularly updating hashing algorithms and security protocols to stay ahead of evolving cyber threats.
+- Educating users about password security best practices to enhance overall platform security.
 
 **Time Complexity**: O(1) for average case
 
-**Space Complexity**: O(n)
+**Space Complexity**: O(n), where n is the number of user credentials stored
 
 [Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/sha256.cpp)
 
 * * *
 
-### 8. Review and Rating System
+### 🌟 8. Review and Rating System
 
-**Algorithm**: AVL Tree
+**Algorithm**: Using AVL Tree
 
-**Use Case**  
-- This efficiently handles product reviews and ratings on Flipkart by maintaining balanced updates and queries in an AVL tree structure.
+**Use Case** This approach efficiently handles product reviews and ratings on Flipkart by maintaining balanced updates and queries within an AVL tree structure.
 
 **Challenges**  
-- Ensuring the tree remains balanced with frequent updates, providing quick access to review data, and handling a large volume of reviews.
+- Ensuring the AVL tree remains balanced despite frequent updates to review data.
+- Providing quick access to review information for both users and administrators.
+- Managing a large volume of reviews while maintaining system performance.
 
 **Market Benefits**  
-- A well-managed review and rating system improves user trust and engagement, providing valuable feedback to other customers and enhancing the overall shopping experience.
+- A robust review and rating system enhances user trust and engagement by providing reliable feedback to potential customers.
+- Improves the overall shopping experience by helping users make informed purchase decisions based on peer reviews.
 
-**Time Complexity**: O(log n)
+**Approaching the Solution**
+- Implementing an AVL tree to store and manage review data, ensuring efficient insertion, deletion, and retrieval operations.
+- Balancing the AVL tree after each modification to maintain optimal performance and query responsiveness.
+- Integrating user-friendly interfaces for submitting and viewing reviews, enhancing usability and accessibility.
+- Continuously optimizing the AVL tree structure and algorithms to handle increasing volumes of reviews and maintain system scalability.
 
-**Space Complexity**: O(n)
+**Time Complexity**: O(log n) for insertion, deletion, and search operations
+
+**Space Complexity**: O(n) where n is the number of reviews stored
 
 [Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/avl.cpp)
 
 ---
 
-### 9. Search Autocomplete
+### 🔍 9. Search Autocomplete
 
-**Algorithm**: Trie
+**Algorithm**: Using Trie
 
-**Use Case**  
-- Providing search suggestions as users type in the search bar on Flipkart, enhancing search efficiency and user experience.
+**Use Case** This approach provides search suggestions in real-time on Flipkart as users type in the search bar, improving search efficiency and user experience.
 
 **Challenges**  
-- Managing a large dictionary of terms, ensuring quick response times for suggestions, and handling dynamic updates to the dictionary.
+- Managing a large dictionary of terms to support autocomplete functionality.
+- Ensuring quick response times for search suggestions to enhance user satisfaction.
+- Handling dynamic updates to the dictionary as new terms are added or removed.
 
 **Market Benefits**  
-- Improves the search experience by offering faster and more accurate suggestions, leading to enhanced user satisfaction and engagement.
+- Enhances the search experience by offering faster and more accurate autocomplete suggestions, leading to improved user engagement and satisfaction.
+
+**Approaching the Solution**
+- Implementing a Trie data structure to store and retrieve search terms efficiently.
+- Utilizing prefix matching in the Trie to generate autocomplete suggestions as users type.
+- Optimizing Trie operations for quick insertions, deletions, and searches to maintain real-time responsiveness.
+- Incorporating mechanisms to dynamically update the Trie with new search terms and remove obsolete ones.
 
 **Time Complexity**: O(m) for insert/search where m is the length of the key
 
@@ -256,18 +299,25 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 10. Duplicate Product Detection
+### 🔍 10. Duplicate Product Detection
 
-**Algorithm**: KMP Algorithm
+**Algorithm**: Using KMP Algorithm
 
-**Use Case**  
-- Identifying duplicate product listings on Flipkart to maintain a clean and organized product catalog.
+**Use Case:** This approach identifies duplicate product listings on Flipkart to maintain a clean and organized product catalog.
 
 **Challenges**  
-- Handling large volumes of product data, ensuring accurate detection of duplicates, and managing dynamic updates to the product listings.
+- Managing large volumes of product data and ensuring accurate detection of duplicate listings.
+- Handling dynamic updates to the product catalog while maintaining efficiency in duplicate detection.
 
 **Market Benefits**  
-- Reduces clutter in the product catalog, enhances catalog quality, and improves user experience by providing accurate and unique listings.
+- Improves catalog quality by reducing clutter and ensuring accurate, unique product listings.
+- Enhances user experience by presenting clear and distinct product options for customers.
+
+**Approaching the Solution**
+- Implementing the Knuth-Morris-Pratt (KMP) algorithm for efficient substring search.
+- Applying the KMP algorithm to compare product descriptions or identifiers to detect duplicates.
+- Optimizing the algorithm for quick detection and resolution of duplicate listings.
+- Integrating real-time updates to the duplicate detection system to maintain catalog integrity.
 
 **Time Complexity**: O(n + m) where n is the length of the text and m is the length of the pattern
 
@@ -277,18 +327,25 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 11. Product Comparison
+### 📊 11. Product Comparison
 
-**Algorithm**: Segment Tree
+**Algorithm**: Using Segment Tree
 
-**Use Case**  
-- Allowing users on Flipkart to compare multiple products efficiently based on various attributes.
+**Use Case:** This approach enables users on Flipkart to compare multiple products efficiently based on various attributes.
 
 **Challenges**  
-- Managing dynamic updates to product attributes, ensuring quick query responses for comparisons, and handling large datasets.
+- Managing dynamic updates to product attributes while ensuring quick query responses for comparisons.
+- Handling large datasets of product information to provide accurate and timely comparisons.
 
 **Market Benefits**  
-- Facilitates informed decision-making by users, improving user satisfaction and potentially increasing sales.
+- Facilitates informed decision-making for users, enhancing user satisfaction and potentially increasing sales.
+- Provides a streamlined comparison experience, improving the overall usability of the platform.
+
+**Approaching the Solution**
+- Implementing a Segment Tree data structure to store and query product attributes efficiently.
+- Updating the Segment Tree dynamically as product attributes change, ensuring up-to-date comparison results.
+- Optimizing Segment Tree operations for quick updates and queries to maintain responsiveness.
+- Integrating user-friendly interfaces for seamless product comparisons, enhancing user engagement.
 
 **Time Complexity**: O(log n) for updates and queries
 
@@ -298,20 +355,26 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 12. Image Storage and Retrieval
+### 🖼️ 12. Image Storage and Retrieval
 
-**Algorithm**: B-Tree
+**Algorithm**: Using B-Tree
 
-**Use Case**  
-- Efficiently storing and retrieving product images on Flipkart to ensure quick access and updates for a large volume of image data.
+**Use Case:** This approach efficiently stores and retrieves product images on Flipkart, ensuring quick access and updates for a large volume of image data.
 
 **Challenges**  
-- Managing large volumes of image data, ensuring quick retrieval times, and handling dynamic updates and additions to the image database.
+- Managing large volumes of image data while maintaining quick retrieval times.
+- Handling dynamic updates and additions to the image database without compromising performance.
 
 **Market Benefits**  
-- Enhances the user experience by providing quick and reliable access to product images, crucial for informed purchasing decisions.
+- Enhances the user experience by providing fast and reliable access to product images, essential for informed purchasing decisions.
 
-**Time Complexity**: O(log n)
+**Approaching the Solution**
+- Implementing a B-Tree data structure to store and manage image metadata and pointers efficiently.
+- Optimizing B-Tree operations for quick insertion, deletion, and retrieval of image data.
+- Integrating mechanisms for handling dynamic updates to image metadata and content.
+- Enhancing scalability to accommodate increasing volumes of product images while maintaining performance.
+
+**Time Complexity**: O(log n) for insertion, deletion, and search operations
 
 **Space Complexity**: O(n)
 
@@ -319,20 +382,28 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 13. Product Recommendation by Similarity
+### 🎯 13. Product Recommendation by Similarity
 
-**Algorithm**: KMP Algorithm
+**Algorithm**: Using KMP Algorithm
 
-**Use Case**  
-- Recommending similar products to users on Flipkart by matching patterns in product descriptions.
+**Use Case:** This system recommends similar products to users on Flipkart by matching patterns in product descriptions.
 
 **Challenges**  
-- Handling large datasets of product descriptions, ensuring accurate and relevant similarity matches, and providing real-time recommendations.
+- Managing large datasets of product descriptions for efficient similarity matching.
+- Ensuring accurate and relevant recommendations based on similarity metrics.
+- Providing real-time recommendations to enhance user engagement and satisfaction.
 
 **Market Benefits**  
-- Increases user engagement and improves the shopping experience by presenting users with items they are likely to be interested in.
+- Increases user engagement by presenting personalized product recommendations aligned with user preferences.
+- Improves the shopping experience by facilitating easier product discovery and informed purchasing decisions.
 
-**Time Complexity**: O(n + m)
+**Approaching the Solution**
+- Implementing the Knuth-Morris-Pratt (KMP) algorithm to compare product descriptions for similarity.
+- Optimizing the algorithm for efficient pattern matching across large datasets of product descriptions.
+- Enhancing recommendation algorithms to factor in user behavior and preferences.
+- Continuously updating similarity metrics and algorithms to improve recommendation accuracy and relevance.
+
+**Time Complexity**: O(n + m) where n is the length of the text and m is the length of the pattern
 
 **Space Complexity**: O(m)
 
@@ -340,18 +411,26 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 14. User Activity Tracking
+### 📈 14. User Activity Tracking
 
-**Algorithm**: B+ Tree
+**Algorithm**: Using B+ Tree
 
-**Use Case**  
-- Tracking user behavior on Flipkart to provide insights for personalization and targeted marketing efforts.
+**Use Case:** This approach tracks user behavior on Flipkart to provide insights for personalization and targeted marketing efforts.
 
 **Challenges**  
-- Managing high write throughput, ensuring data consistency and integrity, and efficiently handling large volumes of activity data.
+- Managing high write throughput to handle frequent updates and additions to user activity logs.
+- Ensuring data consistency and integrity across a large volume of activity data.
+- Efficiently querying and analyzing user activity data to derive meaningful insights.
 
 **Market Benefits**  
-- Enables better personalization and targeted marketing, leading to improved user experience and higher conversion rates.
+- Facilitates better personalization of user experiences by understanding user behavior patterns.
+- Enables targeted marketing efforts based on user preferences and interactions, improving conversion rates.
+
+**Approaching the Solution**
+- Implementing a B+ Tree data structure to store and manage user activity logs efficiently.
+- Optimizing B+ Tree operations for quick insertion, deletion, and retrieval of activity data.
+- Using indexing and efficient querying techniques to analyze user behavior patterns and trends.
+- Enhancing scalability to handle increasing volumes of user activity data while maintaining performance.
 
 **Time Complexity**: O(log n) for both reads and writes
 
@@ -365,24 +444,38 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 **Algorithm**: Hash Set
 
-**Use Case**  
-- Validating discount codes and vouchers quickly on Flipkart, ensuring a seamless checkout process for users.
+
+
+### 💸 15. Coupon Code Validation
+
+**Algorithm**: Using Hash Set
+
+**Use Case:** Validating discount codes and vouchers quickly on Flipkart, ensuring a seamless checkout process for users.
 
 **Challenges**  
-- Managing a large number of coupon codes, ensuring quick and accurate validation, and handling potential collisions in the hash set.
+- Managing a large number of coupon codes efficiently within the hash set.
+- Ensuring quick and accurate validation of coupon codes to minimize checkout delays.
+- Handling potential collisions and maintaining hash set integrity for reliable validation.
 
 **Market Benefits**  
-- Enhances the checkout experience by reducing wait times and improving user satisfaction, leading to higher conversion rates.
+- Enhances the checkout experience by reducing wait times and improving user satisfaction.
+- Increases conversion rates by providing reliable discount code validation, encouraging users to complete purchases.
 
-**Time Complexity**: O(1) on average
+**Approaching the Solution**
+- Implementing a hash set data structure to store and validate coupon codes efficiently.
+- Utilizing hash functions to distribute coupon codes evenly across the hash set, minimizing collisions.
+- Optimizing hash set operations for quick insertion, deletion, and validation of coupon codes.
+- Implementing error-handling mechanisms to manage invalid or expired coupon codes effectively.
 
-**Space Complexity**: O(n)
+**Time Complexity**: O(1) on average for insertion, deletion, and validation operations
+
+**Space Complexity**: O(n) where n is the number of coupon codes stored
 
 [Code](https://github.com/2317Ankit/APS-Portfolio.github.io/blob/main/Codes/hashset.cpp)
 
 ---
 
-### 16. Filter-Based Search in Flipkart
+### 🔍 16. Filter-Based Search in Flipkart
 
 **Algorithm:** Inverted Index with Bitmaps
 
@@ -422,7 +515,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 ---
 
 
-### 17. Order Tracking
+### 📦 17. Order Tracking
 
 **Algorithm:** Breadth-First Search (BFS)
 
@@ -453,7 +546,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 18. Search based on Price Range
+### 18. 🔍 Search based on Price Range
 
 **Algorithm:** Fenwick Tree (Binary Indexed Tree)
 
@@ -484,7 +577,7 @@ A portfolio showcasing algorithms from the Algorithmic Problem Solving (APS) cou
 
 ---
 
-### 19. Sorting Products based on Filters
+### 🛍️ 19. Sorting Products based on Filters
 
 **Algorithm:** Quick Sort
 
